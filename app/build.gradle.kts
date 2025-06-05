@@ -4,6 +4,26 @@ plugins {
     alias(libs.plugins.kotlin.compose)
 }
 
+val versionMajor = 0
+val versionMinor = 3
+val versionPatch = 0
+val isSnapshotVersion = false
+
+val versionNameGradle: String
+    get() {
+        val versionString = "$versionMajor.$versionMinor.$versionPatch"
+
+        if (isSnapshotVersion) {
+            return "$versionString-SNAPSHOT"
+        }
+        return versionString
+    }
+
+val versionCodeGradle: Int
+    get() {
+        return versionMajor * 10000 + versionMinor * 100 + versionPatch
+    }
+
 android {
     namespace = "br.com.renanalencar.screenrecorder"
     compileSdk = 35
@@ -12,8 +32,8 @@ android {
         applicationId = "br.com.renanalencar.screenrecorder"
         minSdk = 34
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = versionCodeGradle
+        versionName = versionNameGradle
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="screenrecorderkotlin.png" align="center" width="30%">
+    <img src="record.svg" align="center" width="30%">
 </p>
 <p align="center"><h1 align="center">SCREENRECORDERKOTLIN</h1></p>
 <p align="center">
@@ -34,13 +34,11 @@
 - [ License](#-license)
 - [ Acknowledgments](#-acknowledgments)
 
----
 
 ##  Overview
 
 **ScreenRecorderKotlin** is an open-source project designed to simplify screen recording on Android devices. With features like seamless recording initiation and termination, users can effortlessly capture their screens. Ideal for developers and content creators, this project streamlines the screen recording process, enhancing user experience and productivity.
 
----
 
 ##  Features
 
@@ -57,7 +55,6 @@
 | 📦 | **Dependencies**  | <ul><li>Manages project dependencies using a `libs.versions.toml` file.</li><li>Centralizes dependency versions to maintain consistency across modules.</li><li>Includes essential libraries for Android development and screen recording features.</li></ul> |
 | 🚀 | **Scalability**   | <ul><li>Designs architecture to accommodate future feature enhancements.</li><li>Uses ViewModel to separate UI logic, enabling easy scalability of UI components.</li><li>Follows best practices to ensure scalability without compromising performance.</li></ul> |
 
----
 
 ##  Project Structure
 
@@ -290,7 +287,6 @@
 	</details>
 </details>
 
----
 ##  Getting Started
 
 ###  Prerequisites
@@ -347,14 +343,12 @@ Run the test suite using the following command:
 ```
 
 
----
 ##  Project Roadmap
 
 - [X] **`Task 1`**: <strike>Implement feature one.</strike>
 - [ ] **`Task 2`**: Implement feature two.
 - [ ] **`Task 3`**: Implement feature three.
 
----
 
 ##  Contributing
 
@@ -397,16 +391,13 @@ Run the test suite using the following command:
 </p>
 </details>
 
----
 
 ##  License
 
 This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
----
 
 ##  Acknowledgments
 
 - List any resources, contributors, inspiration, etc. here.
 
----

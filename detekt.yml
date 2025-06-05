@@ -1,0 +1,39 @@
+style:
+  MagicNumber:
+    active: true
+    ignoreNumbers: [-1, 0, 1, 2, 100, 120]
+    ignoreHashCodeFunction: true
+
+  MaxLineLength:
+    active: true
+    maxLineLength: 120
+    excludePackageStatements: true
+    excludeImportStatements: true
+
+  OptionalUnit:
+    active: true
+
+  WildcardImport:
+    active: true
+    excludeImports:
+      - "java.util.*"
+      - "kotlinx.android.synthetic.**"
+
+  SpacingBetweenPackageAndImports:
+    active: true
+
+formatting:
+  active: true
+  autoCorrect: true
+  indentation:
+    indentSize: 4
+    continuationIndentSize: 4
+  trailingCommaOnCallSite:
+    active: true
+  trailingCommaOnDeclarationSite:
+    active: true
+  importOrdering:
+    active: true
+    layout: ['*,^']
+  parameterWrapping:
+    active: false # para evitar conflito com Compose + listas encadeadas
